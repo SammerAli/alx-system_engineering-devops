@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%x\n' $DECIMAL
+perl -le 'print hex("$DECIMAL");'
